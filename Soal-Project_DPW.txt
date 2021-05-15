@@ -1,0 +1,8 @@
+=> GitHub
+1.  Apa pengertian GitHub?
+2.  Apa manfaat GitHub?
+3.  Perlukah programmer mengenal GitHub?
+4.  Bagaimana cara menggunakan github ? tunjukkan detile langkah-langkahnya!
+5.  Silahkan membentuk kelompok yang terdiri dari 3-5 mahasiswa, sebutkan nama anggota anda dan nama akun GitHubnya!
+6.  Buat project kecil yang dikerjakan secara bersama-sama dengan menggunakan GitHub, ceritakan proses nya. Tunjukkan tugas yang dikerjakan oleh masing-masing anggota, dan 
+    jelaskan detile + capture tugas yang anda kerjakan!
