@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Menu Makanan</title>
+  </head>
+  <body style="background-color:rgb(218, 241, 10)">
+
+    <div class="container">
+        <h2>MENU MAKANAN RESTO OCEAN GARDEN</h2>
+        <table class="table">
+          <thead>
+            <tr>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">No</th>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">Nama Makanan</th>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">tempat</th>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">harga</th>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">keterangan</th>
+                <th scope="col" style="background-color: rgb(218, 57, 57);">Gambar Makanan</th>
+            </tr>
+          </thead>
+
+          <tbody>
+              <tr>
+                  <td scope="row" style="background-color: rgb(94, 225, 228);">1</td>
+                  <td style="background-color: rgb(94, 225, 228);">Seafood</td>
+                  <td style="background-color: rgb(94, 225, 228);">Lombok</td>
+                  <td style="background-color: rgb(94, 225, 228);">60.000</td>
+                  <td style="background-color: rgb(94, 225, 228);">seafood adalah sebutan untuk makanan berupa hewan dan tumbuhan laut yang ditangkap, dipancing, diambil dari laut maupun hasil budidaya. Burung dan burung air yang terdapat di laut tidak termasuk ke dalam makanan laut.</td>
+                  <td scope="row" style="background-color: rgb(94, 225, 228);"><img src="seafood.jpg" width="100px" light="100px"/></td>
+              </tr>
+
+              <tr>
+                <td scope="row" style="background-color: rgb(243, 55, 165);">2</td>
+                <td style="background-color: rgb(243, 55, 165);">Cumi</td>
+                <td style="background-color: rgb(243, 55, 165);">Jawa</td>
+                <td style="background-color: rgb(243, 55, 165);">80.000</td>
+                <td style="background-color: rgb(243, 55, 165);">cumi-cumi disantap dalam berbagai hidangan. hidangan -hidangan cumi-cumi selain juga dipakai untuk beberapa hidangan gurita, terutama cumi-cumi/gurita goreng (calamari goreng). Terdapat berbagai cara untuk menyiapkan dan memasak cumi-cumi. Cumi-cumi goreng terdapat dalam hidangan Mediterania, hidangan tersebut disajikan dengan saus tarator.</td>
+                <td scope="row" style="background-color: rgb(243, 55, 165);"><img src="cumi.jpg" width="100px" light="100px"/></td>
+            </tr>
+
+            <tr>
+                <td scope="row" style="background-color: rgb(55, 243, 118);">3</td>
+                <td style="background-color: rgb(55, 243, 118);">Kepiting</td>
+                <td style="background-color: rgb(55, 243, 118);">kalimantan</td>
+                <td style="background-color: rgb(55, 243, 118);">100.000</td>
+                <td style="background-color: rgb(55, 243, 118);">kepiting merupakan hewan laut yang kaya akan gizi, makanan yang rendah lemak, sumber mineral, tinggi protein dan vitamin. . walaupun memgandung kolesterol, kandugan lemak jenuh yang terdapat di hewan ini sangat rendah. kepiting dimasak dengan bumbu asam manis yang membuat makanan ini semakin gurih dengan cita rasa asam yang menyegarkan</td>
+                <td scope="row" style="background-color: rgb(55, 243, 118);"><img src="kepiting.jpg" width="100px" light="100px"/></td>
+            </tr>
+
+            <tr>
+                <td scope="row" style="background-color: rgb(231, 71, 71);">4</td>
+                <td style="background-color: rgb(231, 71, 71);">Kerang</td>
+                <td style="background-color: rgb(231, 71, 71);">Madura</td>
+                <td style="background-color: rgb(231, 71, 71);">65.000</td>
+                <td style="background-color: rgb(231, 71, 71);">kerang laut merupakan salah satu makanan laut dengan kandungan nutrisi yang melimpah. Sebagian besar kerang memang hidup di air asin, meski ada pula yang hidup di air tawar.
+                Berbagai jenis kerang laut ini diolah menjadi masakan lezat. Seperti semua jenis makanan laut, kerang bisa menjadi bagian yang sehat dari diet seimbang. Sebagian besar jenis kerang laut juga sangat rendah kolesterol. Kerang bisa menjadi pilihan makanan rendah lemak, rendah kolesterol, dan sehat bagi jantung.</td>
+                <td scope="row" style="background-color: rgb(231, 71, 71);"><img src="kerang.jpg" width="100px" light="100px"/></td>
+            </tr>
+
+            <tr>
+                <td scope="row" style="background-color: rgb(31, 110, 214);">5</td>
+                <td style="background-color: rgb(31, 110, 214);">Udang</td>
+                <td style="background-color: rgb(31, 110, 214);">Bangkalan</td>
+                <td style="background-color: rgb(31, 110, 214);">50.000</td>
+                <td style="background-color: rgb(31, 110, 214);">Udang merupakan salah satu boga bahari yang banyak dikonsumsi di seluruh dunia. Dalam dunia hewan, udang masuk ke dalam ordo decapoda dan banyak dibudidayakan secara komersial dalam budi daya perairan</td>
+                <td scope="row" style="background-color: rgb(31, 110, 214);"><img src="udang.jpg" width="100px" light="100px"/></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
