@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <style type="text/css">
+ h1 {
+			text-align: center;
+			color: black;
+			font-weight: bold;
+		}
+ .navbar {
+ padding: 0;
+ overflow: hidden;
+ background-color: black;
+ float: left;
+ }
+ .navbar a:hover,
+ .dropdown:hover .dropBtn {
+ background-color: red;
+ list-style-type: none;
+ font-weight: bold;
+ }
+ 
+ .dropdown .dropBtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: white;
+ padding: 15px 15px;
+ background-color: black;
+}
+ .dropdownItem {
+ display: none;
+ position: absolute;
+ background-color: whitesmoke;
+ }
+ .dropdownItem a {
+ color: black;
+ padding: 15px 15px;
+ text-decoration: none;
+ text-align: left;
+ display: block;
+ }
+ .dropdownItem a:hover {
+ background-color: lightgreen;
+ }
+ .dropdown:hover .dropdownItem {
+ display: block;
+ }
+ </style>
+ </head>
+ <body>
+ 	<h1>NAMA-NAMA MOBIL DI INDONESIA</h1>
+ 	<div class="navbar"> <div class="dropdown">
+ 	<button class="dropBtn">HONDA</button>
+ 	<div class="dropdownItem">
+ 	<a href="#">Honda Brio</a>
+ 	<a href="#">Honda CRV</a>
+ 	<a href="#">Honda Mobilio</a>
+ 	</div>
+ 	</div>
+ 	</div>
+ 	<div class="navbar"> <div class="dropdown">
+ 	<button class="dropBtn">SUZUKI</button>
+ 	<div class="dropdownItem">
+ 	<a href="#">Suzuki Ertiga</a>
+ 	<a href="#">Suzuki Baleno</a>
+ 	<a href="#">Suzuki Ignis</a>
+ 	</div>
+ 	</div>
+ 	</div>
+ 	<div class="navbar"> <div class="dropdown">
+ 	<button class="dropBtn">MITSUBISHI</button>
+ 	<div class="dropdownItem">
+ 	<a href="#">Mitsubishi Xpander</a>
+ 	<a href="#">Mitsubishi Pajero Sport</a>
+ 	<a href="#">Mitsubishi Fortuner</a>
+ 	</div>
+ 	</div>
+ 	</div>
+ </body>
+</html>
